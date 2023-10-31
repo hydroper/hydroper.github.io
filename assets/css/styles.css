@@ -1,33 +1,10 @@
 body {
-	background: #fff;
-	color: #000;
+	background: linear-gradient(-180deg, rgba(96,96,96,1) 0%, rgba(0,0,0,1) 100%);
+	color: #fff;
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 19px;
 	word-break: break-word;
-}
-
-body a {
-	font-size: 15px;
-}
-
-table {
-	border-collapse: collapse;
-	margin: 15px;
-}
-
-tr:nth-child(even) {
-	background: #eee;
-}
-
-td, th {
-	border: 2px solid #aaa;
-	text-align: left;
-	padding: 8px;
-}
-
-.done-list > li {
-	margin-top: 35px;
-	margin-bottom: 35px;
+	text-transform: uppercase;
 }
 
 .big-link {
@@ -35,8 +12,13 @@ td, th {
 	font-size: 32px;
 }
 
+ul {
+	list-style-type: '✦   ';
+}
+
 a {
-	color: #559;
+	text-decoration: none;
+	color: #aaf;
 }
 
 h1, h2, h3, h4, h5, h6 {
